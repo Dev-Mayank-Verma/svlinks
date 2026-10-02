@@ -86,4 +86,9 @@ class BrandingTest extends TestCase
             ->assertSee('Custom CSS')
             ->assertSee('Footer');
     }
+
+    public function test_default_application_brand_is_svlinks(): void
+    {
+        $this->assertSame('SVLinks', config('linkforge.name'));
+    }
 }
