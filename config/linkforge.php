@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| LinkForge branding & theme
+| SVLinks branding & theme
 |--------------------------------------------------------------------------
 |
 | Single source of truth for white-label branding. Everything here is
@@ -17,7 +17,7 @@
 return [
 
     // Brand identity
-    'name' => env('APP_NAME', 'LinkForge'),
+    'name' => env('APP_NAME', 'SVLinks'),
     'logo' => env('LF_LOGO'), // custom logo URL; overridable from admin Appearance settings
 
     // Shipped version. The applied version is tracked in the `app_version` setting
